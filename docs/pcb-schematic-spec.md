@@ -40,8 +40,18 @@
 ### Sensors (SPI Bus)
 | Ref | Part | Package | Notes |
 |---|---|---|---|
-| U12 | FLIR Lepton 3.5 | Socket | Thermal camera (or MLX90640) |
+| U12 | FLIR Lepton 3.5 | Socket | Thermal IR camera (or MLX90640) |
 | U13 | SSD1351 OLED 128x128 | Module | Color display |
+| U18 | OV5640 NoIR | Module | Near-IR night vision camera (no IR filter) |
+| U19 | OV5640 standard | Module | Visible + UV fluorescence camera |
+
+### Visual Scanner Array
+| Mode | Hardware |
+|---|---|
+| Thermal IR | FLIR Lepton 3.5 |
+| Night vision | NoIR camera + 850nm IR LED illuminators (D2, D3) |
+| UV fluorescence | Standard camera + 365nm UV LED (D4) |
+| Visible | Standard camera + white LED (D5) |
 
 ### Sensors (UART)
 | Ref | Part | Package | Notes |
