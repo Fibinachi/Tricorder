@@ -124,6 +124,19 @@
 
 **Signal flow:** Tap badge → chirp → speak → BLE audio to phone → voice-to-text → Meshtastic → LoRa mesh → other badges/tricorders
 
+### Meshtastic Ticker Display (Tricorder OLED)
+
+**Concept:** The tricorder OLED doubles as a Meshtastic terminal. Incoming mesh messages scroll as a news ticker. Tap the communicator to reply.
+
+- [ ] OLED layout: top section = sensor readouts, bottom strip = scrolling message ticker
+- [ ] Incoming Meshtastic messages push to ticker queue (sender + text scroll across)
+- [ ] Ticker pauses on new message, resumes after timeout
+- [ ] Tap communicator badge → chirp → speak reply → voice-to-text → sent over mesh
+- [ ] Sent confirmation blips on tricorder display
+- [ ] Message history: scroll back with keypad (last 10 messages)
+- [ ] Channel indicator: which mesh channel is active
+- [ ] Node count: how many mesh nodes in range, displayed on ticker idle screen
+
 ---
 
 ## Budget Estimate
