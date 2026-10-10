@@ -137,6 +137,22 @@
 - [ ] Channel indicator: which mesh channel is active
 - [ ] Node count: how many mesh nodes in range, displayed on ticker idle screen
 
+### Homing Mode (Find Other Nodes)
+
+**Concept:** Use the mesh network + onboard GPS/magnetometer as a direction finder. "Find my friends" across Dragon Con with no cell signal.
+
+- [ ] **Long range:** Select node from mesh list → OLED shows live distance + compass bearing (from own GPS + magnetometer vs. target's broadcast position)
+- [ ] **Short range:** RSSI hot/cold signal strength meter for close-in finding
+- [ ] Node list view: all mesh nodes in range with distance, scroll with keypad
+- [ ] Target lock: select a node, OLED switches to homing display (arrow + distance)
+- [ ] Works entirely off-grid over LoRa
+
+### Atlanta Heat Index Mode
+
+- [ ] BME280 already gives temp + humidity — compute heat index ("feels like")
+- [ ] Dedicated display: actual temp vs. feels-like temp
+- [ ] Because it's Atlanta in September and you will want to know exactly how bad it is
+
 ---
 
 ## Budget Estimate
