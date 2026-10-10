@@ -47,6 +47,7 @@
 - GPS: NEO-M8N (UART) — position, time sync
 - Microphone: SPH0645 I2S MEMS — sound level, frequency analysis
 - NFC: PN532 (I2C/SPI) — tag scanning
+- **MicroSD slot (SPI)** — onboard data logging, CSV sensor readings with timestamps
 - Red laser diode (GPIO + transistor driver) — visible targeting dot
 - Buzzer/piezo (GPIO + PWM) — tricorder chirp on scan
 - RAZR keypad interface (GPIO matrix) — if using RAZR shell instead
