@@ -108,7 +108,9 @@
 
 ---
 
-## Communicator Badge (Companion Build)
+## Communicator Badge (Companion Build) — QTY 2
+
+**Concept:** Toy Starfleet communicator badge, hollowed out. Tap it (chirp!) to talk over the Meshtastic mesh network. Build two — you need at least a pair to test the mesh, and a spare for whoever you're with at the con.
 
 **Concept:** Toy Starfleet communicator badge, hollowed out. Tap it (chirp!) to talk over the Meshtastic mesh network. The full away-team kit.
 
