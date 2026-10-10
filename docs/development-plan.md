@@ -107,6 +107,25 @@
 
 ---
 
+## Communicator Badge (Companion Build)
+
+**Concept:** Toy Starfleet communicator badge, hollowed out. Tap it (chirp!) to talk over the Meshtastic mesh network. The full away-team kit.
+
+- [ ] Source: toy communicator badge (Playmates or similar)
+- [ ] Hollow out, keep the tap button
+- [ ] MEMS microphone (SPH0645 or similar, I2S)
+- [ ] ESP32 or nRF52 for BLE (low power, badge-sized)
+- [ ] Tap button = push-to-talk: chirp sound, mic powers on
+- [ ] BLE to tricorder or phone
+- [ ] Phone does voice-to-text, sends text over Meshtastic LoRa mesh
+- [ ] Incoming mesh messages: phone notification + optional micro speaker in badge
+- [ ] Battery: small LiPo (300-500mAh), USB-C charging
+- [ ] Magnetic pin back (wearable)
+
+**Signal flow:** Tap badge → chirp → speak → BLE audio to phone → voice-to-text → Meshtastic → LoRa mesh → other badges/tricorders
+
+---
+
 ## Budget Estimate
 
 | Item | Est. Cost |
