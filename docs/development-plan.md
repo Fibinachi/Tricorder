@@ -115,9 +115,9 @@
 **Concept:** Toy Starfleet communicator badge, hollowed out. Tap it (chirp!) to talk over the Meshtastic mesh network. The full away-team kit.
 
 - [ ] Source: toy communicator badge (Playmates or similar)
-- [ ] Hollow out, keep the tap button
+- [ ] Hollow out, keep the existing toy button as push-to-talk
+- [ ] MCU: ESP32-C3 (RISC-V, BLE, tiny, low power — ideal for wearable)
 - [ ] MEMS microphone (SPH0645 or similar, I2S)
-- [ ] ESP32 or nRF52 for BLE (low power, badge-sized)
 - [ ] Tap button = push-to-talk: chirp sound, mic powers on
 - [ ] BLE to tricorder or phone
 - [ ] Phone does voice-to-text, sends text over Meshtastic LoRa mesh
