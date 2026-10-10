@@ -68,6 +68,7 @@
 | D1 | Red laser diode 650nm 5mW | — | Targeting dot (Q3 driver) |
 | Q3 | 2N2222 | SOT-23 | Laser diode driver |
 | BZ1 | Piezo buzzer | — | Tricorder chirp (PWM) |
+| D6 | Original toy red LED | Reuse | Status indicator (GPIO driven) |
 | J3 | JST-PH 6p | — | RAZR keypad matrix input |
 
 ---
@@ -126,6 +127,7 @@ Devices on bus: BME280 (0x76), SGP30 (0x58), VEML6075 (0x10), LIS3MDL (0x1C), VL
 |---|---|---|
 | LASER_EN | GPIO1 | Laser diode driver |
 | BUZZER | GPIO2 | PWM for chirp |
+| TOY_LED | GPIO46 | Original red LED (PWM for blink patterns) |
 | SENS_PWR | GPIO43 | Sensor bus MOSFET gate |
 | LORA_PWR | GPIO44 | LoRa MOSFET gate |
 | SD_DETECT | GPIO5 | MicroSD card detect (shared w/ I2S WS — use GPIO0) |
